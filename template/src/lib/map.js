@@ -11,13 +11,12 @@ const attributions = ["Grundkarte: <a href='https://www.basemap.at'>basemap.at</
  * highest zoom level to 16, basemap from 16 to lowest zoom level. The view
  * is configured to allow zooming in to zoom 18, which is approximately a
  * scale of 1 : 2000. A FullScreen control is also added.
- * @param {string|HTMLElement} target Target element for the map, as provided in APEX.
  * @returns {import("ol/Map").default} The map.
  */
 export function createMap(target) {
   useGeographic();
   const map = new Map({
-    target,
+    target: 'map',
     layers: [
       new TileLayer({
         source: new XYZ({

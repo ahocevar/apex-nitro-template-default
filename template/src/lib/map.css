@@ -1,8 +1,5 @@
 @import "~ol/ol.css";
 
-main {
-  background-color: #fff;
-}
 #map {
   width: 100%;
   height: 400px;
