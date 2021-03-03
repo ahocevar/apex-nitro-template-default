@@ -1,3 +1,4 @@
+import "./map.css";
 import { Map, View } from "ol";
 import { FullScreen } from "ol/control";
 import TileLayer from "ol/layer/Tile";
