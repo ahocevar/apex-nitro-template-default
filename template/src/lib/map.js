@@ -36,7 +36,7 @@ export function createMap(target) {
       })
     ],
     view: new View({
-      zoom: 8,
+      zoom: 7,
       center: [13.35, 47.70]
     })
   });
