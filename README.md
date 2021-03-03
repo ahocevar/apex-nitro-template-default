@@ -10,7 +10,10 @@ To use this template
 
 1. Use `apex-nitro init` ([more info here](https://github.com/OraOpenSource/apex-nitro/blob/master/docs/init.md))
 1. Pick "Pro" mode ![init1](/docs/img/init1.png)
-1. Pick "Default" template ![init2](/docs/img/init2.png)
+1. Pick "Custom Git repository" as template and enter
+   ```
+   https://gitlab.com/ahocevar/mapwrap-template-apex-nitro.git
+   ```
 2. Answer quesions about your project ![init3](/docs/img/init3.png)
 
 ## Examples
