@@ -1,25 +1,23 @@
-# APEX Nitro Template - Default
+# Mapwrap Template APEX Nitro Template
 
-This is the default template for APEX Nitro. For more details, visit https://github.com/OraOpenSource/apex-nitro.
+This is a template for APEX Nitro. For more details, visit https://github.com/OraOpenSource/apex-nitro.
 
-By using this template, you will create a library for your APEX app that is complient with modern industry standards.
+By using this template, you will create a library for your APEX app that is complient with modern industry standards. The library comes preconfigured with a simple [OpenLayers](https://openlayers.org/) map on page 1.
 
 ## Initializing this template
 
 To use this template
 
-1. Use `apex-nitro init` ([more info here](https://github.com/OraOpenSource/apex-nitro/blob/master/docs/init.md))
-1. Pick "Pro" mode ![init1](/docs/img/init1.png)
+1. Run `apex-nitro init` ([more info here](https://github.com/OraOpenSource/apex-nitro/blob/master/docs/init.md))
+1. Pick "Pro" mode
 1. Pick "Custom Git repository" as template and enter
    ```
    https://gitlab.com/ahocevar/mapwrap-template-apex-nitro.git
    ```
-2. Answer quesions about your project ![init3](/docs/img/init3.png)
+2. Answer quesions about your project
 
-## Examples
+## Getting started with the map
 
-We have included 3 examples in this repository, each with their own source folder. Starting from one of those examples can be a good headstart for initializing your own project source folder structure.
+This template provides the JavaScript code that is required to add a simple map to page 1.
 
-Those examples are only for reference purposes. You can look at them to copy the structure and the code, but we provide no way of automatically initializing your project with them.
-
-[Find the three examples here](./examples/)
+[Find the code with instructions here](./template/src/pages/p1.js)
