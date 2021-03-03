@@ -1,5 +1,5 @@
-import p1 from "./js/p1";
-import p2 from "./js/p2";
+import p1 from "./pages/p1";
+import p2 from "./pages/p2";
 
 export {
   p1,
