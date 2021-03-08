@@ -22,17 +22,18 @@ export function createMap(target) {
       new TileLayer({
         source: new XYZ({
           attributions,
-          url: 'https://maps{1-4}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png'
+          url: 'https://maps{1-4}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png',
+          maxZoom: 19
         }),
         maxZoom: 16
       }),
       new TileLayer({
         source: new XYZ({
           attributions,
-          url: ' https://maps{1-4}.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{z}/{y}/{x}.jpeg'
+          url: ' https://maps{1-4}.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{z}/{y}/{x}.jpeg',
+          maxZoom: 19
         }),
-        minZoom: 16,
-        maxZoom: 19
+        minZoom: 16
       })
     ],
     view: new View({
