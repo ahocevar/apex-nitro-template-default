@@ -138,7 +138,8 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(apexnitroConfig.srcFolder, "static"),
-          to: path.resolve(apexnitroConfig.distFolder, "static")
+          to: path.resolve(apexnitroConfig.distFolder, "static"),
+          noErrorOnMissing: true
         }
       ]
     })
